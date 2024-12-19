@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <h1>Пример использования слотов в Vue</h1>
-    <card-component> <!-- Обратите внимание на новое имя -->
+    <card-component>
       <template #header>
         Заголовок карточки
       </template>
@@ -23,7 +23,7 @@ import CardComponent from './components/Card.vue'; // Импортируем с 
 export default {
   name: 'App',
   components: {
-    CardComponent, // Обновлено имя компонента
+    CardComponent,
   },
   methods: {
     handleClick() {
