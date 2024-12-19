@@ -14,7 +14,7 @@
   
   <script>
   export default {
-    name: 'CardComponent', // Изменено имя компонента на многословное
+    name: 'CardComponent',
   };
   </script>
   
